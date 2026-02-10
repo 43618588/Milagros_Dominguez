@@ -1,0 +1,3 @@
+CONTAINER ID   IMAGE                COMMAND                  CREATED        STATUS                 PORTS                                                        NAMES
+0ed143a1298b   odoo:18.0            "/entrypoint.sh odoo"    27 hours ago   Up 4 hours (healthy)   0.0.0.0:8069->8069/tcp, [::]:8069->8069/tcp, 8071-8072/tcp   odoo-dev-E1UF1884
+bb7e99f34956   postgres:16-alpine   "docker-entrypoint.s…"   27 hours ago   Up 4 hours (healthy)   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp                  postgres-dev-E1UF1884

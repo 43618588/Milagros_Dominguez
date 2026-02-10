@@ -1,0 +1,347 @@
+[
+    {
+        "Id": "0ed143a1298b315e302d2cdeefae88c720e629f616974db618e9a5c5f05245c3",
+        "Created": "2026-02-09T09:11:14.311488543Z",
+        "Path": "/entrypoint.sh",
+        "Args": [
+            "odoo"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 1626,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-02-10T08:24:58.427214336Z",
+            "FinishedAt": "2026-02-10T08:24:56.98034512Z",
+            "Health": {
+                "Status": "healthy",
+                "FailingStreak": 0,
+                "Log": [
+                    {
+                        "Start": "2026-02-10T12:45:44.180696027Z",
+                        "End": "2026-02-10T12:45:44.263686843Z",
+                        "ExitCode": 0,
+                        "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    18  100    18    0     0    687      0 --:--:-- --:--:-- --:--:--   692\n{\"status\": \"pass\"}"
+                    },
+                    {
+                        "Start": "2026-02-10T12:46:14.265794602Z",
+                        "End": "2026-02-10T12:46:14.361125707Z",
+                        "ExitCode": 0,
+                        "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{\"status\": \"pass\"}\r100    18  100    18    0     0    606      0 --:--:-- --:--:-- --:--:--   620\n"
+                    },
+                    {
+                        "Start": "2026-02-10T12:46:44.362653508Z",
+                        "End": "2026-02-10T12:46:44.454334477Z",
+                        "ExitCode": 0,
+                        "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    18  100    18    0     0    747      0 --:--:-- --:--:-- --:--:--   750\n{\"status\": \"pass\"}"
+                    },
+                    {
+                        "Start": "2026-02-10T12:47:14.455962521Z",
+                        "End": "2026-02-10T12:47:14.54883474Z",
+                        "ExitCode": 0,
+                        "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{\"status\": \"pass\"}\r100    18  100    18    0     0    678      0 --:--:-- --:--:-- --:--:--   692\n"
+                    },
+                    {
+                        "Start": "2026-02-10T12:47:44.550294883Z",
+                        "End": "2026-02-10T12:47:44.639618011Z",
+                        "ExitCode": 0,
+                        "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    18  100    18    0     0    724      0 --:--:-- --:--:-- --:--:--   750\n{\"status\": \"pass\"}"
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:d97b033cc20156af2bbbdf29c8f7a127a4c25e60ed5152758af815164527adfb",
+        "ResolvConfPath": "/var/lib/docker/containers/0ed143a1298b315e302d2cdeefae88c720e629f616974db618e9a5c5f05245c3/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/0ed143a1298b315e302d2cdeefae88c720e629f616974db618e9a5c5f05245c3/hostname",
+        "HostsPath": "/var/lib/docker/containers/0ed143a1298b315e302d2cdeefae88c720e629f616974db618e9a5c5f05245c3/hosts",
+        "LogPath": "/var/lib/docker/containers/0ed143a1298b315e302d2cdeefae88c720e629f616974db618e9a5c5f05245c3/0ed143a1298b315e302d2cdeefae88c720e629f616974db618e9a5c5f05245c3-json.log",
+        "Name": "/odoo-dev-E1UF1884",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/home/user/odoo18/config/dev:/etc/odoo:rw",
+                "/home/user/odoo18/addons/dev:/mnt/extra-addons:rw",
+                "odoo18_odoo-dev-data:/var/lib/odoo:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "odoo18_odoo-dev-network",
+            "PortBindings": {
+                "8069/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "8069"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "unless-stopped",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [
+            {
+                "Type": "volume",
+                "Name": "odoo18_odoo-dev-data",
+                "Source": "/var/lib/docker/volumes/odoo18_odoo-dev-data/_data",
+                "Destination": "/var/lib/odoo",
+                "Driver": "local",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "bind",
+                "Source": "/home/user/odoo18/config/dev",
+                "Destination": "/etc/odoo",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/home/user/odoo18/addons/dev",
+                "Destination": "/mnt/extra-addons",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "0ed143a1298b",
+            "Domainname": "",
+            "User": "odoo",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "8069/tcp": {},
+                "8071/tcp": {},
+                "8072/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "POSTGRES_USER_DEV=odoo",
+                "ADMIN_PASSWD=1234",
+                "POSTGRES_DB_DEV=postgres",
+                "ODOO_ADMIN_PASSWD_QA=1234",
+                "USER=odoo",
+                "ODOO_ADMIN_PASSWD_DEV=1234",
+                "POSTGRES_PASSWORD_PROD=1234",
+                "POSTGRES_PASSWORD_QA=1234",
+                "ODOO_ADMIN_PASSWD_PROD=1234",
+                "HOST=db-dev",
+                "PORT=5432",
+                "POSTGRES_PASSWORD_DEV=1234",
+                "PASSWORD=1234",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=en_US.UTF-8",
+                "ODOO_VERSION=18.0",
+                "ODOO_RC=/etc/odoo/odoo.conf"
+            ],
+            "Cmd": [
+                "odoo"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD",
+                    "curl",
+                    "-f",
+                    "http://localhost:8069/web/health"
+                ],
+                "Interval": 30000000000,
+                "Timeout": 10000000000,
+                "StartPeriod": 40000000000,
+                "Retries": 3
+            },
+            "Image": "odoo:18.0",
+            "Volumes": {
+                "/mnt/extra-addons": {},
+                "/var/lib/odoo": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/entrypoint.sh"
+            ],
+            "Labels": {
+                "com.docker.compose.config-hash": "c756a598a3fe3dd616913a0d191b1e0d9ae19ed1be0017762b5f6541eb87e8a5",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "db-dev:service_healthy:false",
+                "com.docker.compose.image": "sha256:d97b033cc20156af2bbbdf29c8f7a127a4c25e60ed5152758af815164527adfb",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "odoo18",
+                "com.docker.compose.project.config_files": "/home/user/odoo18/docker-compose.yml",
+                "com.docker.compose.project.working_dir": "/home/user/odoo18",
+                "com.docker.compose.service": "odoo-dev",
+                "com.docker.compose.version": "5.0.1",
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.version": "24.04"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "5b6cacb16493fe030b615e8eb29ebf7ae8b713ca564712dc6aeb2bdd1d917733",
+            "SandboxKey": "/var/run/docker/netns/5b6cacb16493",
+            "Ports": {
+                "8069/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "8069"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "8069"
+                    }
+                ],
+                "8071/tcp": null,
+                "8072/tcp": null
+            },
+            "Networks": {
+                "odoo18_odoo-dev-network": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "odoo-dev-E1UF1884",
+                        "odoo-dev"
+                    ],
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "21962d5c348e27a24c441f8b658b05fff730ecd67036e2610375e516c8e30ada",
+                    "EndpointID": "ff290a98119ebc3fc393258a8c440b20197c8604ad1054799a47a3dc69caacb6",
+                    "Gateway": "172.18.0.1",
+                    "IPAddress": "172.18.0.2",
+                    "MacAddress": "62:fb:65:dc:78:b2",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "odoo-dev-E1UF1884",
+                        "odoo-dev",
+                        "0ed143a1298b"
+                    ]
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:02f4a574c1eb878b21c3d1a82b232db9c8fa732e5082265cba8359ecb33c8d4d",
+            "size": 2661,
+            "annotations": {
+                "com.docker.official-images.bashbrew.arch": "amd64",
+                "org.opencontainers.image.base.digest": "sha256:a4453623f2f8319cfff65c43da9be80fe83b1a7ce689579b475867d69495b782",
+                "org.opencontainers.image.base.name": "ubuntu:noble",
+                "org.opencontainers.image.created": "2026-01-15T22:35:18Z",
+                "org.opencontainers.image.revision": "cee8710442112aad57f34f797459df1ab1d5ef6a",
+                "org.opencontainers.image.source": "https://github.com/odoo/docker.git#cee8710442112aad57f34f797459df1ab1d5ef6a:18.0",
+                "org.opencontainers.image.url": "https://hub.docker.com/_/odoo",
+                "org.opencontainers.image.version": "18.0-20251222"
+            },
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]
