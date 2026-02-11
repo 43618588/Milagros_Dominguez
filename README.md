@@ -6,8 +6,8 @@
 - Kernel: Linux 6.8.0-94-generic  
 - Arquitectura: aarch64  
 - Despliegue: Docker  
-- ERP-CRM: Odoo 18 (`odoo-dev-UF1884`)  
-- Gestor de datos: PostgreSQL (`postgres-dev-UF1884`)  
+- ERP-CRM: Odoo 18 (`odoo-dev-E1UF1884`)  
+- Gestor de datos: PostgreSQL (`postgres-dev-E1UF1884`)  
 
 Los resultados y conclusiones que se presentan a continuación se basan **exclusivamente en los datos reales obtenidos** de los directorios `bloque1` y `bloque2` proporcionados.
 
@@ -32,7 +32,7 @@ El sistema cumple los requisitos técnicos mínimos y no presenta limitaciones e
 ---
 
 #### Identificación del gestor de datos y su estado
-El gestor de datos utilizado es **PostgreSQL**, ejecutándose en un contenedor Docker independiente (`postgres-dev_UF1884`).  
+El gestor de datos utilizado es **PostgreSQL**, ejecutándose en un contenedor Docker independiente (`postgres-dev_E1UF1884`).  
 El servicio se encuentra activo, estable y con consumo de recursos bajo en el momento del análisis.
 
 **Conclusión:**  
@@ -83,7 +83,7 @@ No se detectan problemas de permisos ni riesgos de seguridad.
 
 #### Servicios activos
 - Servicio Docker activo.
-- Contenedores `odoo-dev-UF1884` y `postgres-dev-UF1884` en ejecución.
+- Contenedores `odoo-dev-E1UF1884` y `postgres-dev-E1UF1884` en ejecución.
 - Puerto del CRM en escucha.
 
 **Conclusión:**  
@@ -175,5 +175,6 @@ Se documentan:
 ## Conclusión final
 El análisis demuestra que la **infraestructura base es correcta y estable**.  
 La actuación del técnico ha sido **prudente, profesional y basada en evidencias**, cumpliendo los criterios exigidos en **UF1885** incluso en ausencia de una incidencia activa.
+
 
 
